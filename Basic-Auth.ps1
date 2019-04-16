@@ -30,7 +30,7 @@ Specifies the seconds of delay between brute-force attempts, defaults is 0.
 
 .EXAMPLE
 PS > . .\BruteForce-Basic-Auth.ps1
-PS > BruteForce-Basic-Auth -Url 192.168.111.140 -User path\to\userwordlist -Password path\to\passwordlist -StopOnSuccess true 
+PS > BruteForce-Basic-Auth -Url IP/Url -User path\to\userwordlist -Password path\to\passwordlist -StopOnSuccess true 
 
 .CREDIT
 https://gist.github.com/brandonmwest/a2632d0a65088a20c00a

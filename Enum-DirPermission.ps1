@@ -1,4 +1,4 @@
-﻿function Enum-DirPermission{
+function Enum-DirPermission{
 <#
 
 .SYNOPSIS
@@ -53,11 +53,16 @@ foreach ($dir in $fetchdir )
              " "
             "Confirming the write permission by creating a file.... `n "
             $check = $dir + "\check.txt"
+
+         Try{
             [io.file]::OpenWrite($check).close()
             Write-Host "[+] Permission Confirmed ! You surely have write permission in: $dir" -foregroundColor Green
             #Deleting the file
             [io.file]::Delete($check)
             }
-
+           Catch{
+           Write-Host "[-] Oops, you have write permission" -foregroundColor Red
+           }
+            }
     }
 }

@@ -15,7 +15,7 @@ List of ips to scan for open shares
 
 
 .EXAMPLE
-PS C:\> . .\Scan-OpenShares.ps1
+PS C:\> . .\Scan-Shares.ps1
 PS C:\> Scan-Shares -TargetList .\list.txt
 
 

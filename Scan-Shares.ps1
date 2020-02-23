@@ -93,10 +93,6 @@ Student ID: PSP-3250
                    
                     # Marking shares permission seprately 
                     $sharereport | Out-String | Write-Host -ForegroundColor Green
-                    #$sharereport | Where-Object {$_.AccessMask -eq "Read, Write"} | Out-String | Write-Host -ForegroundColor Green
-                    #$sharereport | Where-Object {$_.AccessMask -eq "ReadAndExecute"} | Out-String | Write-Host -ForegroundColor Green
-                    #$sharereport | Where-Object {$_.AccessMask -ne "FullControl" -and $_.AccessMask -ne "ReadAndExecute" -and $_.AccessMask -ne "Read, Write"} | Out-String | Write-Host -ForegroundColor Green
-                   
                     
            
            

@@ -7,7 +7,7 @@ Powershell cmdlet to enumerate all open shares in a network
 
 
 .DESCRIPTION
-A poweshell script that Enumerate all open shares in a network and mark them with read and write access seprately
+A powershell script that takes list of target IPs and enumerate all open shares in a network,mark them with read and write access separately.
 
  
 .PARAMTER TargetList

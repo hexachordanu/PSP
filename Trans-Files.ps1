@@ -26,7 +26,7 @@ Password to create a PSSession
 
 .EXAMPLE
 PS C:\> . .\Trans-Files.ps1
-PS C:\> Trans-Files -Localfile .\file.txt -Remotefile "c:\users\admin\desktops\file.txt" -Target 192.168.1.4
+PS C:\> Trans-Files -LocalFilePath .\file.txt -RemotefilePath "c:\users\admin\desktops\file.txt" -Username hexninja -Pass demopass -Target 192.168.1.4
 
 .LINK
 https://social.technet.microsoft.com/Forums/windows/en-US/17960e2b-bd47-44fd-b25e-c5092940bf40/how-to-pass-a-param-to-script-block-when-using-invokecommand?forum=winserverpowershell
